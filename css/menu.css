@@ -49,3 +49,48 @@
 .descripcion_empresa p{
     text-align: left;
 }
+
+
+@media (min-width: 768px) {
+   
+}
+
+@media (min-width: 1328px) {
+    .contenedor_principal{
+        width: 1320x;
+        font-weight: 1000px
+    }
+    .elprimero{
+        font-weight: 1000px;
+    }
+    .elsegundo{
+        text-align: center;
+        font-weight: 1000px
+    }
+    .descripcion_empresa{
+        width: 1440 px;
+    }
+    .video{
+        width: 1320px;
+    }
+}
+
+/* Estilos para pantallas de celular (hasta 767px) */
+@media (max-width: 480px) {
+    .contenedor_principal{
+        width: 445px;
+        flex-direction: column;
+    }
+    .elprimero{
+        text-align: center;
+    }
+    .elsegundo{
+        text-align: center;
+    }
+    .descripcion_empresa{
+        width: 350px;
+    }
+    .video{
+        width: 450px;
+    }
+}

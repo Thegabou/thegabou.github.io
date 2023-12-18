@@ -143,7 +143,6 @@ nav{
     background-color: aqua;
 }
 
-/* Estilos para pantallas de tabletas (768px y más) */
 @media screen and (min-width: 960px) {
     .encabezado {
         height: 400px;
@@ -153,7 +152,6 @@ nav{
     }
 }
 
-/* Estilos para pantallas de escritorio (1024px y más) */
 @media (min-width: 1328px) {
     .encabezado {
         height: 600px;
@@ -166,18 +164,37 @@ nav{
     }
 }
 
-/* Estilos para pantallas de celular (hasta 767px) */
-@media (max-width: 480px) {
+@media screen and (max-width:1440px){
     .encabezado {
-        height: 350px;
-        width: auto;
+        height: 500px;
+        width: 1320px;
     }
     .encabezado div {
         padding: 10px 20px 0 0;
         width: auto;
     }
     .encabezado h1{
-        font-size: 300;
+        font-size: 16px;
+    }
+    .pie{
+        width: 1320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado {
+        height: 500px;
+        width: 445px;
+    }
+    .encabezado div {
+        padding: 10px 20px 0 0;
+        width: auto;
+    }
+    .encabezado h1{
+        font-size: 16px;
+    }
+    .pie{
+        width: 445px;
     }
     
 }
