@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pendejo el que lo lea">
-    <title>Coños</title>
+    <title>Contactanos</title>
     <link rel="apple-touch-icon" href="images/kirby.png">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="shortcut icon" href="Images/kirby_logo.png" type="image/png">
 </head>
 <body>
     <header class="encabezado">
@@ -41,50 +43,20 @@
             <h1>"Tecnología que inspira, computadoras que transforman."</h1>
         </section>
     </header>
-        <section>
-            <!--FORMULARIO O SECCION DE FORMULARIO-->
-            <form action="" method="post">
-                <label for="">APELLIDOS:</label>
-                <input type="text" placeholder="APELLIDOS ACA BOBO" name="apellido">
-                <br>
-                <label for="">NOMBRES:</label>
-                <input type="text" placeholder="NOMBRE ACA SONSO">
-                <br>
-                <label for="">EMAIL:</label>
-                <input type="email" placeholder="coñosucio@gmail.com">
-                <br>
-                <label for="">EDAD:</label>
-                <input type="number">
-                <br>
-                <label for="">FECHA DE NACIMIENTO:</label>
-                <input type="date" placeholder="">
-                <br>
-                <label for="">HORA DE INSCRIPCION:</label>
-                <input type="time" placeholder="">
-                <br>
-                <label for="">GENERO:</label>
-                <select name="" id="">
-                    <option value="">Seleccione una opcion</option>
-                    <option value="">Masculino</option>
-                    <option value="">Femenino</option>
-                    <option value="">Otros</option>
-                </select>
-                <br>
-                <label for="">ETNIA:</label>
-                <input type="radio" name="'ETNIA">Blanco
-                <input type="radio" name="'ETNIA">Mestizo
-                <input type="radio" name="'ETNIA">Afrodesendiente
-                <input type="radio" name="'ETNIA">Chino
-                <br>
-                <label for="">DEPORTES:</label>
-                <input type="checkbox">Futbol
-                <input type="checkbox">Basquet
-                <input type="checkbox">Volley
-                <input type="checkbox">Tennis
-                <br>
-                <label for="">HABLAME DE VOS SAPO:</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button type="submit">Enviar pelotudo</button>
+        <section class="section_body"> <!--FORMULARIO O SECCION DE FORMULARIO-->
+            <form action="" method="post" class="form_contenedor">
+                <div class="div_contenedor">
+                    <h1>Habla con nosotros</h1>
+                    <label for="">Apellidos:</label>
+                    <input class ="form_input" type="text" placeholder="Castro Perez" name="apellido">
+                    <label for="">Nombres:</label>
+                    <input class ="form_input" type="text" placeholder="Gabriel Alexander">                 
+                    <label for="">Correo Electronico:</label>
+                    <input class ="form_input" type="email" placeholder="example@gmail.com">
+                    <label for="">Escribenos tu memsaje:</label>
+                    <textarea name="" class="area_txt" cols="30" rows="10"></textarea>
+                    <button type="submit">Enviar pelotudo</button>
+                </div>
             </form>
         </section>
         <footer class="pie">
@@ -96,7 +68,7 @@
                     </div>
                     <div class="info_plus">
                         <h1>Contactanos via Whatsapp!</h1>
-                        <span>0987665505/0987558809</span>
+                        <span>0987665505<br>/0987558809</span>
                     </div>
                     <div class="info_plus">
                         <h1>Nuestra Ubicacion!</h1>

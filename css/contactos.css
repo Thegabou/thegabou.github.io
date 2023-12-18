@@ -1,0 +1,86 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.section_body{
+    font-family: 'Montserret', sans-serif;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.form_contenedor{
+    
+    background-color: #ffff; 
+    width: 150%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 3.5px 1.5px;
+    margin: auto;
+
+}
+
+.div_contenedor{
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-auto-columns: 100%;
+}
+
+.div_contenedor h1{
+    text-align: center;
+    font-size: 16.9px;
+    margin-bottom: 64px;
+}
+
+.area_txt{
+    resize: none;
+    padding: 16.8px 16px;
+    margin-bottom: 0.5em;
+}
+
+.form_input{
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0.8em 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 15px;
+}
+
+.div_contenedor button{
+    font-family: inherit;
+    font-size: 16px;
+    background-color: purple;
+    color:#ffff;
+    border: none;
+    font-weight: 300;
+    padding: 10px 0;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/* Estilos generales para pantallas grandes */
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 400px) {
+    .form_contenedor {
+      width: 100%; /* Cambiar el ancho del contenedor para adaptarse a pantallas más pequeñas */
+      max-width: none; /* Eliminar el ancho máximo para que se ajuste dinámicamente */
+    }
+  
+    .div_contenedor h1 {
+      font-size: 14px; /* Reducir el tamaño del título para pantallas más pequeñas */
+      margin-bottom: 32px; /* Ajustar el margen inferior del título */
+    }
+  
+    /* Agregar más reglas de estilo para pantallas más pequeñas según sea necesario */
+  }
