@@ -144,7 +144,7 @@ nav{
 }
 
 /* Estilos para pantallas de tabletas (768px y más) */
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .encabezado {
         height: 400px;
     }
@@ -154,7 +154,7 @@ nav{
 }
 
 /* Estilos para pantallas de escritorio (1024px y más) */
-@media (min-width: 1024px) {
+@media (min-width: 1328px) {
     .encabezado {
         height: 600px;
     }
@@ -167,7 +167,7 @@ nav{
 }
 
 /* Estilos para pantallas de celular (hasta 767px) */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .encabezado {
         height: 350px;
         width: auto;

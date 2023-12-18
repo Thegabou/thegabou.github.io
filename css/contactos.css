@@ -71,7 +71,7 @@
 /* Estilos generales para pantallas grandes */
 
 /* Media query para pantallas más pequeñas */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .form_contenedor {
       width: 100%; /* Cambiar el ancho del contenedor para adaptarse a pantallas más pequeñas */
       max-width: none; /* Eliminar el ancho máximo para que se ajuste dinámicamente */
