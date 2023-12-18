@@ -1,0 +1,29 @@
+div{
+    border: 5px solid ;
+    width: 200px;
+}
+
+.uno{
+    background-color:  green;
+    position: sticky ;
+}
+
+.dos{
+    background-color:  greenyellow;
+}
+
+.tres{
+    background-color: aqua;
+}
+
+.cuatro{
+    background-color: blueviolet;
+}
+
+.cinco{
+    background-color: brown;
+}
+
+.seis{
+    background-color: cadetblue;
+}

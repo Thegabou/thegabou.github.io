@@ -1,0 +1,20 @@
+<div class="redes">
+            <span>
+                <i class="fa-brands fa-facebook"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-instagram"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-x-twitter"></i>
+            </span>
+            <span>
+                <i class="fa-brands fa-youtube"></i>
+            </span>
+        </div>
+        <article class="eltercero">
+            <h1>Acerca de Nosotros</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam expedita error quasi, in mollitia
+                fugiat odit nisi nam minima sunt laudantium quod consectetur iusto sequi alias eum ipsam! Nihil
+                repellendus, alias debitis commodi provident ullam quae corporis dolores quam.</p>
+        </article>
