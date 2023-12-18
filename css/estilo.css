@@ -144,7 +144,7 @@ nav{
 }
 
 /* Estilos para pantallas de tabletas (768px y más) */
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
     .encabezado {
         height: 400px;
     }
