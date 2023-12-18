@@ -32,6 +32,10 @@
     color:#f5f5f5
 }
 
+.encabezado .redes .nave a:hover{
+    background-color: #43C6AC;
+}
+
 .encabezado section{
     display: flex;
     height: 300px;
