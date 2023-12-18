@@ -26,7 +26,7 @@
 }
 
 .video video {
-    width: 80%; /* Puedes ajustar el ancho según tus necesidades */
+    width: 80%; 
     max-width: 100%;
 }
 
@@ -51,34 +51,10 @@
 }
 
 
-@media (min-width: 768px) {
-   
-}
-
-@media (min-width: 1328px) {
-    .contenedor_principal{
-        width: 1320x;
-        font-weight: 1000px
-    }
-    .elprimero{
-        font-weight: 1000px;
-    }
-    .elsegundo{
-        text-align: center;
-        font-weight: 1000px
-    }
-    .descripcion_empresa{
-        width: 1440 px;
-    }
-    .video{
-        width: 1320px;
-    }
-}
-
 /* Estilos para pantallas de celular (hasta 767px) */
 @media (max-width: 480px) {
     .contenedor_principal{
-        width: 445px;
+        width: 400px;
         flex-direction: column;
     }
     .elprimero{
@@ -88,9 +64,12 @@
         text-align: center;
     }
     .descripcion_empresa{
-        width: 350px;
+        width: 325px;
     }
     .video{
-        width: 450px;
+        width: 400px;
+    }
+    .video h1{
+        width: 300px;
     }
 }
